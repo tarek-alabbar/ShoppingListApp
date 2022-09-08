@@ -10,7 +10,7 @@
   "packageFolders": {
     "C:\\Users\\tarek\\.nuget\\packages\\": {},
     "D:\\VisualStudio\\VSShared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -23,7 +23,7 @@
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\VisualStudio\\VSShared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\tarek\\AppData\\Roaming\\NuGet\\NuGet.Config",
