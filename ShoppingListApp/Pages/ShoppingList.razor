@@ -2,12 +2,46 @@
 
 @using DataAccessLibrary;
 @using DataAccessLibrary.Models
-@using ShoppingListApp;
+
 
 @inject IShoppingListData _db
 
 <h3>Shopping Lists Page</h3>
 
+@if (shoppingList is null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>User Id</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var shoppingList in shoppingList)
+        {
+            <tr>
+                <td>@shoppingList.Id</td>
+                <td>@shoppingList.Name</td>
+                <td>@shoppingList.UserId</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+
 @code {
-    
+    private List<ShoppingListModel> shoppingList;
+
+    protected override async Task OnInitializedAsync()
+    {
+        shoppingList = await _db.GetShoppingLists();
+    }
+
 }
