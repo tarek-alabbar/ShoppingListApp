@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lOrGWzLdPL5EpYuKwh+4PH5LPUgCZZwKWHX0tq+JHGk=",
+  "Hash": "Tp0UG+DZ69kw38/Qd6jjs5ikYTYb92AxqxOGtL8ngnk=",
   "Source": "ShoppingListApp",
   "BasePath": "_content/ShoppingListApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ShoppingListApp\\wwwroot",
       "Source": "ShoppingListApp",
-      "ContentRoot": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
       "BasePath": "_content/ShoppingListApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ShoppingListApp.styles.css",
+      "Identity": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ShoppingListApp.styles.css",
       "SourceId": "ShoppingListApp",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ShoppingListApp",
       "RelativePath": "ShoppingListApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ShoppingListApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ShoppingListApp.styles.css"
     },
     {
-      "Identity": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ShoppingListApp.bundle.scp.css",
+      "Identity": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ShoppingListApp.bundle.scp.css",
       "SourceId": "ShoppingListApp",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ShoppingListApp",
       "RelativePath": "ShoppingListApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ShoppingListApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ShoppingListApp.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "ShoppingListApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
       "BasePath": "_content/ShoppingListApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "ShoppingListApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
       "BasePath": "_content/ShoppingListApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "ShoppingListApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
       "BasePath": "_content/ShoppingListApp",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "ShoppingListApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
       "BasePath": "_content/ShoppingListApp",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "ShoppingListApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
       "BasePath": "_content/ShoppingListApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "ShoppingListApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
       "BasePath": "_content/ShoppingListApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "ShoppingListApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
       "BasePath": "_content/ShoppingListApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "ShoppingListApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
       "BasePath": "_content/ShoppingListApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "ShoppingListApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
       "BasePath": "_content/ShoppingListApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "ShoppingListApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
       "BasePath": "_content/ShoppingListApp",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "ShoppingListApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
       "BasePath": "_content/ShoppingListApp",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\css\\site.css",
       "SourceId": "ShoppingListApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
       "BasePath": "_content/ShoppingListApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\favicon.ico",
       "SourceId": "ShoppingListApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\wwwroot\\",
       "BasePath": "_content/ShoppingListApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

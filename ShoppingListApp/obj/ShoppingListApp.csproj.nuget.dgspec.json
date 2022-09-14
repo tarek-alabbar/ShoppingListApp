@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\ShoppingListApp.csproj": {}
+    "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\ShoppingListApp.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\ShoppingListApp.csproj": {
+    "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\ShoppingListApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\ShoppingListApp.csproj",
+        "projectUniqueName": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\ShoppingListApp.csproj",
         "projectName": "ShoppingListApp",
-        "projectPath": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\ShoppingListApp.csproj",
-        "packagesPath": "C:\\Users\\tarek\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\ShoppingListApp\\ShoppingListApp\\obj\\",
+        "projectPath": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\ShoppingListApp.csproj",
+        "packagesPath": "C:\\Users\\talabbar665\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\talabbar665\\Personal\\projects\\ShoppingListApp\\ShoppingListApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\VisualStudio\\VSShared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tarek\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\talabbar665\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -45,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.0-preview.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

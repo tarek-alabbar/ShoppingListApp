@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace DataAccessLibrary.Models
 {
-    internal class ShoppingListModel
+    public class ShoppingListModel
     {
+        public int Id;
+        public string Name { get; set; }
+        public int UserId { get; set; }
     }
 }
