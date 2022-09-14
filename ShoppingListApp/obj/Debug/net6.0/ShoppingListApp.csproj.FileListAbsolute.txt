@@ -54,3 +54,4 @@ C:\Users\talabbar665\Personal\projects\ShoppingListApp\ShoppingListApp\obj\Debug
 C:\Users\talabbar665\Personal\projects\ShoppingListApp\ShoppingListApp\obj\Debug\net6.0\ShoppingListApp.pdb
 C:\Users\talabbar665\Personal\projects\ShoppingListApp\ShoppingListApp\obj\Debug\net6.0\ShoppingListApp.genruntimeconfig.cache
 C:\Users\talabbar665\Personal\projects\ShoppingListApp\ShoppingListApp\obj\Debug\net6.0\ref\ShoppingListApp.dll
+C:\Users\talabbar665\Personal\projects\ShoppingListApp\ShoppingListApp\bin\Debug\net6.0\appsettings.json
