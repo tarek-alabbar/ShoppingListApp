@@ -1,3 +1,5 @@
+using DataAccessLibrary;
+using DataAccessLibrary.Models;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using ShoppingListApp.Data;
@@ -8,6 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddTransient<ISqlDataAccess, SqlDataAccess>();
+builder.Services.AddTransient<IShoppingListData, ShoppingListData>();
 
 var app = builder.Build();
 
