@@ -8,7 +8,7 @@ namespace DataAccessLibrary.Models
 {
     public class ShoppingListModel
     {
-        public int Id;
+        public int Id { get; set; }
         public string Name { get; set; }
         public int UserId { get; set; }
     }
