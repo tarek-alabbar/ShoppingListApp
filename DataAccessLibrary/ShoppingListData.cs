@@ -24,7 +24,9 @@ namespace DataAccessLibrary
 
         public Task InsertShoppingList(ShoppingListModel shoppingList)
         {
-            throw new NotImplementedException();
+            string sql = @"insert into Master.ShoppingList (Name, UserId) values (@Name, @UserId)";
+
+            return _db.SaveData(sql, shoppingList);
         }
     } 
 }

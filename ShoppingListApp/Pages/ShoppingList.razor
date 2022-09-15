@@ -2,12 +2,25 @@
 
 @using DataAccessLibrary;
 @using DataAccessLibrary.Models
+@using ShoppingListApp.Models
+@using System.ComponentModel
 
 
 @inject IShoppingListData _db
 
 <h3>Shopping Lists Page</h3>
+<h4>Insert New Shopping List</h4>
+<EditForm Model="@newShoppingList" OnValidSubmit="@InsertShoppingList">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <ValidationSummary></ValidationSummary>
+    
+    <InputText id="Shopping List Name" @bind-Value="newShoppingList.Name"  />
+    <InputText id="UserId" @bind-Value="newShoppingList.UserId" />
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+</EditForm>
 
+<h4>Current Shopping</h4>
 @if (shoppingList is null)
 {
     <p><em>Loading...</em></p>
@@ -17,7 +30,6 @@ else
     <table class="table table-striped">
         <thead>
         <tr>
-            <th>Id</th>
             <th>Name</th>
             <th>User Id</th>
         </tr>
@@ -26,7 +38,6 @@ else
         @foreach (var shoppingList in shoppingList)
         {
             <tr>
-                <td>@shoppingList.Id</td>
                 <td>@shoppingList.Name</td>
                 <td>@shoppingList.UserId</td>
             </tr>
@@ -38,10 +49,25 @@ else
 
 @code {
     private List<ShoppingListModel> shoppingList;
+    private DisplayShoppingListModel newShoppingList = new DisplayShoppingListModel();
 
     protected override async Task OnInitializedAsync()
     {
         shoppingList = await _db.GetShoppingLists();
     }
 
+    private async Task InsertShoppingList()
+    {
+        ShoppingListModel s = new ShoppingListModel
+        {
+            Name = newShoppingList.Name,
+            UserId = newShoppingList.UserId
+        };
+
+        await _db.InsertShoppingList(s);
+        
+        shoppingList.Add(s);
+
+        newShoppingList = new DisplayShoppingListModel();
+    }
 }
