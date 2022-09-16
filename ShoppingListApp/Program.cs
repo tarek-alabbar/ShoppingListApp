@@ -12,6 +12,7 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddTransient<ISqlDataAccess, SqlDataAccess>();
 builder.Services.AddTransient<IShoppingListData, ShoppingListData>();
+builder.Services.AddTransient<IUserData, UserData>();
 
 var app = builder.Build();
 

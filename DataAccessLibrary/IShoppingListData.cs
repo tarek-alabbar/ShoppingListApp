@@ -8,5 +8,6 @@ namespace DataAccessLibrary
     {
         Task<List<ShoppingListModel>> GetShoppingLists();
         Task InsertShoppingList(ShoppingListModel shoppingList);
+        
     }
 }

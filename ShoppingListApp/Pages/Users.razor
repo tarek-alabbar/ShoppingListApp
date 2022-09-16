@@ -1,0 +1,40 @@
+@page "/Data/Users"
+@using DataAccessLibrary
+@using DataAccessLibrary.Models
+@using ShoppingListApp.Models
+
+@inject IUserData _db
+
+<h3>Users</h3>
+@if (users is null)
+{
+  <p><em>Loading...</em></p>  
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var user in users)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.Name</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<UserModel> users;
+    protected override async Task OnInitializedAsync()
+    {
+        users = await _db.GetUser();
+    }
+}
